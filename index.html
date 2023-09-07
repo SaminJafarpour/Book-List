@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="index.css" rel="stylesheet" />
+    <title>Book App</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">OpenBook</h1>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+        </div>
+      </header>
+
+      <div id="book-list">
+        <h2 class="title">Recent Books</h2>
+
+        <div class="clear"></div>
+
+        <ul>
+          <li>
+            <span class="name">The Compound Effect</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="name">Power Of Habit</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="name">Tuesdays With Morrie</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="name"> Animal Castle</span>
+            <span class="delete">Delete</span>
+          </li>
+        </ul>
+      </div>
+
+      <form id="hide">
+        <label> Hiding The Books</label>
+        <input type="checkbox" />
+      </form>
+
+      <div class="clear"></div>
+
+      <form id="add-book">
+        <input type="text" placeholder="Add a book..." />
+        <a class="button" href="#">Add</a>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
